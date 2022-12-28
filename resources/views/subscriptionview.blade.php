@@ -10,7 +10,7 @@
                 <div class="col-lg-6">
                     <h3 class="text-center text-danger">Subscription Details</h3><hr>
                     <div class="form-group">
-                        <h4>Type by Acc no or Serial no</h4>
+                        <h3 style="left: ">Type by Acc no or Serial no</h3>
                         <input type="text" name="search" id="search" placeholder="Enter serial no or acc no" class="form-control" onfocus="this.value=''">
                     </div>
                     <div id="search_list"></div>

@@ -5,86 +5,95 @@
 
 @section('form')
 
-<h1 style=" text-align:center;"> SISSU Registration</h1><br>
+<div class="main">
+    <div class="main-topic">
+        <h5 style="font-weight: bold"> SISSU Registration</h5>
+        </div>
     <!-- <form action="{{url('subscription-save')}}" method="POST"> -->
         @csrf
-
         <div id="eg"></div>
-        <div class="form-grp">
+<div class="user-details">
+    
+
+        <div class="grp">
+            
             <label>Serial Number</label>
-            <input type="text" name="serialno" class="form-control" value="{{old('serialno')}}" required>
+            <input type="text" name="serialno" class="input" value="{{old('serialno')}}" required  placeholder="Enter Serial Number">
         </div>
+        
 
-        <br>
-        <div class="form-grp">
+        
+        <div class="grp">
             <label>Pin Number</label>
-            <input type="text" name="pinno" class="form-control" value="{{old('pinno')}}" required>
+            <input type="text" name="pinno" class="input" value="{{old('pinno')}}" required  placeholder="Enter Pin Number">
         </div>
-        <br>
+        
 
-        <div class="form-grp">
+        <div class="grp">
             <label>Account Number</label>
-            <input type="text" name="accno" class="form-control" value="{{old('accno')}}" required>
+            <input type="text" name="accno" class="input" value="{{old('accno')}}" required  placeholder="Enter Account Number">
         </div>
 
-        <br>
-        <div class="form-grp">
+        
+
+        <div class="grp">
+            <label>Priority</label>
+            <input type="text" name="priority[]" class="input" value="1" >
+        </div>
+
+        
+        <div class="grp">
+            <label>Phone Number</label>
+            <input type="text" name="msisdn[]" autocomplete="off" class="input" value="{{old('msisdn')}}" placeholder="Enter Phone Number">
+        </div>
+
+        <div class="grp">
+            <label>Priority</label>
+            <input type="text" name="priority[]" class="input" value="2">
+        </div>
+
+        
+        <div class="grp">
+            <label>Phone Number</label>
+            <input type="text" name="msisdn[]" autocomplete="off" class="input" value="{{old('msisdn')}}" placeholder="Enter Phone Number">
+        </div>
+
+        <div class="grp">
+            <label>Priority</label>
+            <input type="text" name="priority[]" class="input" value="3">
+        </div>
+
+        
+        <div class="grp">
+            <label>Phone Number</label>
+            <input type="text" name="msisdn[]" autocomplete="off" class="input" value="{{old('msisdn')}}" placeholder="Enter Phone Number">
+        </div>
+
+        <div class="grp">
+            <label>Priority</label>
+            <input type="text" name="priority[]" class="input" value="4">
+        </div>
+
+        
+        <div class="grp">
+            <label>Phone Number</label>
+            <input type="text" name="msisdn[]" autocomplete="off" class="input" value="{{old('msisdn')}}" placeholder="Enter Phone Number">
+        </div>
+
+        <div class="cheackbox">
             <div class="form-check form-switch">
                 <input class="form-check-input" type="checkbox" id="status" name="status"  >
                 <label class="form-check-label" for="flexSwitchCheckDefault">Status</label>
             </div>
 
 
-        </div> <br>
-
-        <div class="form-grp">
-            <label>Priority</label>
-            <input type="text" name="priority[]" class="form-control" value="1" >
-        </div>
-
-        <br>
-        <div class="form-grp">
-            <label>Phone Number</label>
-            <input type="text" name="msisdn[]" autocomplete="off" class="form-control" value="{{old('msisdn')}}">
-        </div><br>
-
-        <div class="form-grp">
-            <label>Priority</label>
-            <input type="text" name="priority[]" class="form-control" value="2">
-        </div>
-
-        <br>
-        <div class="form-grp">
-            <label>Phone Number</label>
-            <input type="text" name="msisdn[]" autocomplete="off" class="form-control" value="{{old('msisdn')}}">
-        </div><br>
-
-        <div class="form-grp">
-            <label>Priority</label>
-            <input type="text" name="priority[]" class="form-control" value="3">
-        </div>
-
-        <br>
-        <div class="form-grp">
-            <label>Phone Number</label>
-            <input type="text" name="msisdn[]" autocomplete="off" class="form-control" value="{{old('msisdn')}}">
-        </div><br>
-
-        <div class="form-grp">
-            <label>Priority</label>
-            <input type="text" name="priority[]" class="form-control" value="4">
-        </div>
-
-        <br>
-        <div class="form-grp">
-            <label>Phone Number</label>
-            <input type="text" name="msisdn[]" autocomplete="off" class="form-control" value="{{old('msisdn')}}">
-        </div>
-
-        <br><br>
+        </div> 
 
 
         <button type="submit" class="btn btn-primary form-control">Save</button>
+    </div>
+    
+
     </form>
 
 
