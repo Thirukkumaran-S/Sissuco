@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2? family=Poppins:wight@400;600 &display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+ /* white login form design */
+.wrapper
+{
+    width: 400px;
+    padding: 2rem 1rem;
+    margin: 23px auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.11);
+}
+
+/* texbox width */
+.wrapper .input
+{
+    width: 92%;
+}
+
+/* texbox Design part */
+.input{
+    
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    background: #f1f1f1;
+}
+.input:focus{
+    border: 1px solid rgb(192, 192, 192);
+
+}
+
+
+/* checkbox text and checkbox Design */
+form .chekbox-text
+{
+    padding: 12px 20px;
+    margin-bottom: 12px;
+    font-size: small;
+    font-weight: 600;
+    color: rgb(117, 117, 117);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* Button Design part */
+button{
+    font-size: 1rem;
+    margin-top: 2px;
+    padding: 10px 0;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    color: #fff;
+    width: 90%;
+    background: #0096bb;
+}
+button:hover{
+    background: rgb(1, 63, 88);
+}
+
+
+/* -----OR------ line Design Part */
+.line
+{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #b9b9b9;
+}
+.line::before
+{
+    content: 'Or';
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: #232836;
+    padding: 0 15px;
+}
+
+
+/* facebook button Design part */
+.facebook 
+{
+    display: flex;
+    background-color: #013a6b;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 6px;
+    margin-top: 1.0rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    left: 10px;
+    padding: 10px 0;
+    outline: none;
+    border: none;
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+.facebook:hover
+{
+    color: #fff;
+    background-color: #002546;
+}
+
+/* Google Button Design Part */
+.google
+{
+    display: flex;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: rgb(116, 116, 116);
+    font-size: 1rem;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    left: 10px;
+    padding: 10px 0;
+    outline: none;
+    border: none;
+    
+    align-items: center;
+    justify-content: center;
+}
+.google:hover
+{
+    color: rgb(66, 66, 66) ;
+    background: #d8d8d8;
+}
+
+/* Google icon size Design Part */
+.google-img
+{
+    position: absolute;
+    left: 525px;
+    height: 27px;
+    width: 27px;
+    object-fit: cover;
+}
+
+/* goodle boder Design Part */
+a.google{
+    border: 1px solid #CACACA;
+}
+a.google span
+{
+    font-weight: bold;
+    color: #07001f;
+}
+
+/* facebook image Size Design Part */
+.facebook-img
+{
+    position: absolute;
+    left: 525px;
+    height: 21px;
+    width: 21px;
+    object-fit: cover;
+}
+
+
+/* Registraion Design CSS Part */
+
+h2{
+    position: relative;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.wrapper1 .inputRegistraion
+{
+    width: 92%;
+}
+
+.inputRegistraion
+{
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    background: #f1f1f1;
+}
+
+.wrapper1
+{
+    position: relative;
+    top: 50px;
+    width: 400px;
+    padding: 2rem 1rem;
+    margin: 23px auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.09);
+}
+.inputRegistraion:focus{
+    border: 1px solid rgb(192, 192, 192);
+
+}
+
