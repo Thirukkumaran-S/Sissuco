@@ -1,21 +1,13 @@
 @extends('header')
 @section('content')
 
+<link rel="stylesheet" href="/css/Dashboardstyle.css"/>
+
 <title>SISSU</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
-    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-    .row.content {
-        height: 1500px
-    }
-
-    /* Set gray background color and 100% height */
-    .sidenav {
-        background-color: lightblue;
-        height: 100%;
-    }
 
     /* Set black background color, white text and some padding */
     footer {
@@ -40,20 +32,21 @@
 
 <div class="container-fluid">
     <div class="row content">
-        <div class="col-sm-3 sidenav">
+        <div class="col-sm-2 sidenav">
             <br>
-            
+
+            <img src="img/Avatar.jpg" class="avatarjpg">
             <h4>SISSU</h4><br><br>
             <ul class="nav flex-column">
 
-                <li class="nav-item">
-                    <a class="nav-link" href="/subscriptionmanager">Subscription</a>
-                </li><br><br>
-                <li class="nav-item">
-                    <a class="nav-link" href="/extensionmanager">Extension</a>
+                <li class="navitem">
+                    <a class="navtext" href="/subscriptionmanager">Subscription</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/subscription-view">Subscription View</a>
+                <li class="navitem">
+                    <a class="navtext" href="/extensionmanager">Extension</a>
+                </li>
+                <li class="navitem">
+                    <a class="navtext" href="/subscription-view">Subscription View</a>
                 </li>
 
 
